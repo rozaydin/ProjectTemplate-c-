@@ -1,9 +1,8 @@
-#ifndef SAMPLE_PROJECT_BANNER_H
-#define SAMPLE_PROJECT_BANNER_H
+#pragma once
 
 #include <fstream>
 #include <sstream>
-#include "Version.h"
+#include "Version.hpp"
 
 namespace Misc {
 
@@ -40,5 +39,3 @@ namespace Misc {
 
     };
 }
-
-#endif //SAMPLE_PROJECT_BANNER_H

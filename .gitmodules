@@ -1,0 +1,6 @@
+[submodule "externals/CMake-codecov"]
+	path = externals/CMake-codecov
+	url = git://github.com/RWTH-HPC/CMake-codecov.git
+[submodule "extern/CMake-codecov"]
+	path = extern/CMake-codecov
+	url = git://github.com/RWTH-HPC/CMake-codecov.git

@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/home/rozaydin/projects/c++/codecoverage/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-9   -I/home/rozaydin/projects/c++/codecoverage/include -I/home/rozaydin/projects/c++/codecoverage/extern/catch2   -std=c++14  -g -fprofile-arcs -ftest-coverage -g -fPIE   -o CMakeFiles/SomeProject.dir/src/main.cpp.o -c /home/rozaydin/projects/c++/codecoverage/src/main.cpp",
+  "file": "/home/rozaydin/projects/c++/codecoverage/src/main.cpp"
+},
+{
+  "directory": "/home/rozaydin/projects/c++/codecoverage/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-9   -I/home/rozaydin/projects/c++/codecoverage/include -I/home/rozaydin/projects/c++/codecoverage/extern/catch2   -std=c++14  -g -fprofile-arcs -ftest-coverage -g -fPIE   -o CMakeFiles/SomeProject.dir/src/Application.cpp.o -c /home/rozaydin/projects/c++/codecoverage/src/Application.cpp",
+  "file": "/home/rozaydin/projects/c++/codecoverage/src/Application.cpp"
+},
+{
+  "directory": "/home/rozaydin/projects/c++/codecoverage/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-9  -DSomeProject_lib_EXPORTS -I/home/rozaydin/projects/c++/codecoverage/include -I/home/rozaydin/projects/c++/codecoverage/extern/catch2   -std=c++14  -g -fprofile-arcs -ftest-coverage -g -fPIC   -o CMakeFiles/SomeProject_lib.dir/src/main.cpp.o -c /home/rozaydin/projects/c++/codecoverage/src/main.cpp",
+  "file": "/home/rozaydin/projects/c++/codecoverage/src/main.cpp"
+},
+{
+  "directory": "/home/rozaydin/projects/c++/codecoverage/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-9  -DSomeProject_lib_EXPORTS -I/home/rozaydin/projects/c++/codecoverage/include -I/home/rozaydin/projects/c++/codecoverage/extern/catch2   -std=c++14  -g -fprofile-arcs -ftest-coverage -g -fPIC   -o CMakeFiles/SomeProject_lib.dir/src/Application.cpp.o -c /home/rozaydin/projects/c++/codecoverage/src/Application.cpp",
+  "file": "/home/rozaydin/projects/c++/codecoverage/src/Application.cpp"
+},
+{
+  "directory": "/home/rozaydin/projects/c++/codecoverage/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-9   -I/home/rozaydin/projects/c++/codecoverage/include -I/home/rozaydin/projects/c++/codecoverage/extern/catch2   -std=c++14  -g -fprofile-arcs -ftest-coverage -g -fPIE   -o CMakeFiles/SomeProject_test.dir/test/main.cpp.o -c /home/rozaydin/projects/c++/codecoverage/test/main.cpp",
+  "file": "/home/rozaydin/projects/c++/codecoverage/test/main.cpp"
+},
+{
+  "directory": "/home/rozaydin/projects/c++/codecoverage/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-9   -I/home/rozaydin/projects/c++/codecoverage/include -I/home/rozaydin/projects/c++/codecoverage/extern/catch2   -std=c++14  -g -fprofile-arcs -ftest-coverage -g -fPIE   -o CMakeFiles/SomeProject_test.dir/test/applicationTest.cpp.o -c /home/rozaydin/projects/c++/codecoverage/test/applicationTest.cpp",
+  "file": "/home/rozaydin/projects/c++/codecoverage/test/applicationTest.cpp"
+}
+]

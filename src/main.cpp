@@ -1,18 +1,15 @@
-#include "sample_project/Application.h"
+#include "application/Application.hpp"
+#include "application/Banner.hpp"
 
 using namespace std;
 
 int main(int argc, char **argv) {
 
-    // initialize logging
-    app::initLogging();
+    const string banner = Misc::Banner::loadBannerTextFromFile("./Banner.txt");        
+    std::cout << banner << std::endl;
+    app::Application app(19);
 
-    const string banner = Misc::Banner::loadBannerTextFromFile("./resource/Banner.txt");
-    BOOST_LOG_TRIVIAL(info) << banner << endl;
-    cout << banner << endl;
-    BOOST_LOG_TRIVIAL(info) << "Starting application ....";
-
-
-    BOOST_LOG_TRIVIAL(info) << "Shutting down application ....";
+    std::cout << "Lucky number: " << app.getLuckyNumber() << std::endl;
     return EXIT_SUCCESS;
+
 }
